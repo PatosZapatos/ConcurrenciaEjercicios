@@ -1,5 +1,10 @@
 package ejercicio3;
 
+//Pregunta para pensar: ¿El orden de las salidas siempre es el mismo? ¿Por qué sí o por qué no?
+/* No, el orden de las salidas no es siempre el mismo porque el planificador del sistema operativo/JVM 
+ * decide el intercalado de ejecuciones (concurrency / preemption).
+* */
+
 public class MiHilo2 extends Thread {
 	
 	int id;
